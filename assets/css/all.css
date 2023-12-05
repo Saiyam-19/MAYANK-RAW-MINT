@@ -6218,6 +6218,7 @@ html, body {
 	height: 250px;
 	width: 100%;
 	box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .slideshow-title {
@@ -6244,12 +6245,6 @@ html, body {
 	font-size: 9px;
 } .sub-heading-six {
 	font-size: 7px;
-} .sub-heading-seven {
-	font-size: 5px;
-} .sub-heading-eight {
-	font-size: 3px;
-} .sub-heading-nine {
-	font-size: 1px;
 }
 
 .entire-content {
@@ -6274,8 +6269,8 @@ html, body {
 }
 
 .content-carrousel figure {
-	width: 100%;
-	height: 134px;
+	width: 225px;
+	height: 175px;
 	border: 1px solid #3b444b;
 	overflow: hidden;
 	position: absolute;
@@ -6284,24 +6279,16 @@ html, body {
 .content-carrousel figure:nth-child(1) {
 	transform: rotateY(0deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(2) {
-	transform: rotateY(40deg) translateZ(300px); 
+	transform: rotateY(60deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(3) {
-	transform: rotateY(80deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(4) {
 	transform: rotateY(120deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(180deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(5) {
-	transform: rotateY(160deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(6) {
-	transform: rotateY(200deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(7) {
 	transform: rotateY(240deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(8) {
-	transform: rotateY(280deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(9) {
-	transform: rotateY(320deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(10) {
-	transform: rotateY(360deg) translateZ(300px); 
-} 
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(300deg) translateZ(300px); 
+}
 
 .shadow {
     position: absolute;
@@ -6329,62 +6316,23 @@ html, body {
 	}
 }
 /* Add any additional styles you want to customize the appearance */
-.frame {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  overflow: hidden;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  /* Add border styles */
-  border: 5px solid #ccc;
-  border-radius: 15px;
-  /* Add animation properties */
-  animation: borderAnimation 4s infinite;
-}
-
-.frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.frame-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+.certificates-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  cursor: pointer;
-  transition: opacity 0.3s;
 }
 
-.frame:hover .frame-overlay {
-  opacity: 1;
+.certificate-container {
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  width: 75%; /* Reduce width by 25% */
 }
 
-/* Define the border animation */
-@keyframes borderAnimation {
-  0% {
-    border-color: #ccc;
-  }
-  50% {
-    border-color: #ff6600;
-  }
-  100% {
-    border-color: #ccc;
-  }
-}
-
-.flex_sidebar{
-  flex:0 0 31%;
-  max-width: none;
-}
-.flex_products{
-  flex: 0 0 69%;
-  max-width: none;
+.certificate-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #ffffff; /* Change the border color as desired */
 }

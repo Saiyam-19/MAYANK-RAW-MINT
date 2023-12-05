@@ -95,7 +95,7 @@
 				display: none;
 			}
 		}
-		& .number-box{
+		&.number-box{
 			height: 60px;
 			width: 60px;
 			border-radius: 50%;
@@ -115,15 +115,16 @@
 				color: $heading-color;
 			}
 		}
-		& .number-box-2{
+		
+		&.number-box-2{
 			height: 60px;
 			width: 60px;
 			text-align: center;
 			border-radius: 50%;
 			background: $theme-color;
 			position: absolute;
-			right: -99px;
-			bottom: -50px;
+			right: 556px;
+			bottom: -23px;
 			z-index: 9;
 			@media #{$xs} {
 				display: none;

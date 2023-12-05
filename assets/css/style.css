@@ -3914,8 +3914,8 @@ PRELOADER
       border-radius: 50%;
       background: #007900;
       position: absolute;
-      right: -99px;
-      bottom: -50px;
+      right: 556px;
+      bottom: -27px;
       z-index: 9; }
       @media (max-width: 767px) {
         .about-history-area .history-item .number-box-2 {
@@ -6398,11 +6398,11 @@ nav .pagination.pagination-2 li a {
     .who-we-are-area .section-title .title::before {
       display: none; }
   .who-we-are-area .section-title p {
-    font-size: 17px;
+    font-size: 20px;
     padding-right: 15px;
     line-height: 35px;
     color: #ffffff;
-    padding-top: 25px; }
+    padding-top: 69px; }
   .who-we-are-area .what-we-do-item {
     box-shadow: 0px 10px 29.7px 0.3px rgba(225, 225, 225, 0.64);
     padding: 45px 20px 50px;
