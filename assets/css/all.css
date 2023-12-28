@@ -6336,3 +6336,37 @@ html, body {
   height: auto;
   border: 5px solid #ffffff; /* Change the border color as desired */
 }
+.copyright-area{
+  background: #202020;
+  padding: 18px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 16px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  display: flex-inline;
+  flex-direction: column ;
+  
+  /* margin-left: 20px; */
+  /* margin-left: -60px; */
+}
+.TC{
+  padding-right: 80px;
+}
+.CO{
+  margin-left:200px ;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 16px;
+  color: #878787;
+  margin-left: 20px;
+}
