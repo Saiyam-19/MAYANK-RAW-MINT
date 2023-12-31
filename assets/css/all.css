@@ -6337,16 +6337,16 @@ html, body {
   border: 5px solid #ffffff; /* Change the border color as desired */
 }
 .copyright-area{
-  background: #202020;
+  background: #000000;
   padding: 18px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 16px;
-  color: #878787;
+  color: #ffffff;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #007900;
 }
 .footer-menu li {
   display: inline-block;
@@ -6363,10 +6363,13 @@ html, body {
   margin-left:200px ;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #007900;
 }
 .footer-menu li a {
   font-size: 16px;
-  color: #878787;
+  color: #ffffff;
   margin-left: 20px;
+}
+.quality-slideshow{
+  margin-bottom:80px;
 }
